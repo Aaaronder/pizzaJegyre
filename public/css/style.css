@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
+
+body, h1, header, p{
+    margin: 0;
+    font-family: Josefin Slab;
+}
+
+body{
+    background-color: #C73659;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #A91D3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    margin-top: 3px;
+    color: #EEEEEE;
+}
+
+h1:hover{
+    cursor: default;
+}
+
+input{
+    font-family: Josefin Slab;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 250px;
+    height: 25px;
+    border-radius: 999px;
+    border: #A91D3A 3px solid;
+     background-color: #EEEEEE;
+     color: #A91D3A;
+}
+
+button{
+    font-family: Josefin Slab;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 999px;
+    border: #A91D3A 3px solid;
+    background-color: #EEEEEE;
+    color: #A91D3A;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    font-size: 20px;
+    color: #EEEEEE;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    bottom: 17px;
+}
+
+h4{
+    margin: 0;
+}
+
+.kartyak{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.kartya{
+    margin-top: 20px;
+    width: 23%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 8px #A91D3A;
+    color: #A91D3A;
+}

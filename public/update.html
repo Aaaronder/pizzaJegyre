@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futár módosítás</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="update.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Futár módosítás</h1>
+    </header>
+
+    <div class="container">
+        <form action="http://localhost:3000/futar" method="put" enctype="multipart/form-data">
+            <input type="number" min="1" name="id" id="id" placeholder="Futár Id-ja" required>
+            <br>
+            <input type="text" name="nev" id="nev" placeholder="Futár új neve" required>
+            <br>
+            <button type="button" id="updateButton">Módosítás</button>
+        </form>
+    </div>
+
+    <a href="index.html">Vissza</a>
+
+</body>
+</html>
